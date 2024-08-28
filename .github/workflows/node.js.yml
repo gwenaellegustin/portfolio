@@ -28,5 +28,3 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build
-    - run: git commit
-    - run: git push
