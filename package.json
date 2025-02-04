@@ -6,10 +6,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production --base-href /",
-    "prebuild-github": "ng build --configuration production --output-path docs --base-href /docs/",
-    "build-github": "ng build --configuration production --output-path docs --base-href /",
-    "watch": "ng build --watch",
+    "build": "ng build --configuration production --output-path docs --base-href /",
+    "watch": "ng build --watch --configuration development --output-path docs --base-href /docs/",
     "test": "ng test",
     "lint": "ng lint"
   },
