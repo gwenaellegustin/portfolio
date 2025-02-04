@@ -8,6 +8,7 @@
     "start": "ng serve",
     "build": "ng build --configuration production --output-path docs --base-href /",
     "watch": "ng build --watch --configuration development --output-path docs --base-href /docs/",
+    "build-github": "ng build --configuration production --output-path docs --base-href https://gwenaellegustin.github.io/portfolio/",
     "test": "ng test",
     "lint": "ng lint"
   },
