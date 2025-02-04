@@ -11,6 +11,4 @@ import { ToolbarComponent } from '../../components/toolbar/toolbar.component';
 })
 export class HomePage {
   constructor() {}
-
-  goto() {}
 }
